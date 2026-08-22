@@ -1,0 +1,24 @@
+#Virtual Enviroment - We never commit
+.venv/
+
+#Python Cache 
+
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest cache
+
+.pytest_cache/
+
+#Enviroment variables / secrets(future FastAPI, DB)
+
+.env
+.env.*
+
+#OS junk
+.DS_Store
+
+#IDE (optional - Cursor/VSCode user settings)
+.vscode/
+.idea/

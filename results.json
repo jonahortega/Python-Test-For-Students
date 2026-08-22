@@ -1,0 +1,114 @@
+[
+    {
+        "score": 4,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "medium": 1
+        },
+        "percentage": 80.0
+    },
+    {
+        "score": 1,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "syntax": 1,
+            "built-ins": 1,
+            "functions": 1,
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "easy": 2,
+            "medium": 2
+        },
+        "percentage": 20.0
+    },
+    {
+        "score": 4,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "medium": 1
+        },
+        "percentage": 80.0
+    },
+    {
+        "score": 3,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "built-ins": 1,
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "easy": 1,
+            "medium": 1
+        },
+        "percentage": 60.0
+    },
+    {
+        "name": "Jonah",
+        "score": 3,
+        "total_questions": 3,
+        "selected_difficulty": "easy",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 100.0
+    },
+    {
+        "name": "J",
+        "score": 4,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "medium": 1
+        },
+        "percentage": 80.0
+    },
+    {
+        "name": "J",
+        "score": 1,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "arithmetic": 1,
+            "syntax": 1,
+            "built-ins": 1,
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "easy": 3,
+            "medium": 1
+        },
+        "percentage": 20.0,
+        "date_taken": "2026-07-22 15:07"
+    },
+    {
+        "name": "Jonah",
+        "score": 1,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {
+            "syntax": 1,
+            "built-ins": 1,
+            "functions": 1,
+            "lists": 1
+        },
+        "wrong_difficulties": {
+            "easy": 2,
+            "medium": 2
+        },
+        "percentage": 20.0,
+        "date_taken": "2026-07-22 16:39"
+    }
+]

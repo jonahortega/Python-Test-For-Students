@@ -1,0 +1,26 @@
+[
+    {
+        "question": "In python if I have qoutes around characters what variable type is it?",
+        "answer": "string",
+        "catagory": "syntax",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Is print a built-in function or a variable?",
+        "answer": "built-in function",
+        "catagory": "built-ins",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Can return be accessed outside of a function?",
+        "answer": "No",
+        "catagory": "functions",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does .append() do?",
+        "answer": "Add a item to the end of the list",
+        "catagory": "lists",
+        "difficulty": "medium"
+    }
+]
