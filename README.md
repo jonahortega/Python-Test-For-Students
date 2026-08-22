@@ -1,6 +1,6 @@
 # Python Quiz Learning Project
 
-CLI quiz app built to practice real world applications of Python as a professional software engineer. A guided learning project with Lior Abitbol.
+CLI quiz app built to practice real world applications of Python as a professional software engineer.
 
 ## Features
 - Multi-file CLI (main, menu, quiz, review)
