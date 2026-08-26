@@ -75,6 +75,13 @@ def load_questions_json():
     except FileNotFoundError:
         print("No questions found")
         return []
+
+def load_results_json():
+    try:
+        with open("results.json", "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return []
         
 
 

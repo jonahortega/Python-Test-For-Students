@@ -110,5 +110,25 @@
         },
         "percentage": 20.0,
         "date_taken": "2026-07-22 16:39"
+    },
+    {
+        "name": "string",
+        "score": 100,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 2000.0,
+        "date_taken": "2026-08-26 14:22"
+    },
+    {
+        "name": "string",
+        "score": 4,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 80.0,
+        "date_taken": "2026-08-26 14:22"
     }
 ]
