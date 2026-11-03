@@ -82,6 +82,14 @@ def load_results_json():
             return json.load(file)
     except FileNotFoundError:
         return []
+    
+def filter_results_by_name(results,name):
+    filtered = []
+    for result in results:
+        if result.get("name") == name:
+            filtered.append(result)
+    return filtered
+        
         
 
 
@@ -222,3 +230,18 @@ def show_weakest_catagories():
     print("Weak Category Totals:")
     for catagory in catagory_totals:
         print(f"- {catagory}: {catagory_totals[catagory]} missed")
+        
+def load_questions_for_client():
+    questions = load_questions_json()
+        
+    safe_questions = []
+        
+    for question in questions:
+        safe_question = {
+            "question":question["question"],
+            "catagory":question["catagory"],
+            "difficulty":question["difficulty"],
+        }
+        safe_questions.append(safe_question)
+        
+    return safe_questions
