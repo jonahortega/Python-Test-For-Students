@@ -130,5 +130,115 @@
         "wrong_difficulties": {},
         "percentage": 80.0,
         "date_taken": "2026-08-26 14:22"
+    },
+    {
+        "name": "string",
+        "score": 0,
+        "total_questions": 1,
+        "selected_difficulty": "string",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 0.0,
+        "date_taken": "2026-08-28 16:41"
+    },
+    {
+        "name": "Tyler",
+        "score": 100,
+        "total_questions": 5,
+        "selected_difficulty": "medium",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 2000.0,
+        "date_taken": "2026-09-02 13:59"
+    },
+    {
+        "name": "Tyler",
+        "score": 100,
+        "total_questions": 5,
+        "selected_difficulty": "medium",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 2000.0,
+        "date_taken": "2026-09-02 14:00"
+    },
+    {
+        "name": "Tyler",
+        "score": 100,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 2000.0,
+        "date_taken": "2026-09-02 14:02"
+    },
+    {
+        "name": "Tyler",
+        "score": 5,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 100.0,
+        "date_taken": "2026-09-02 14:05"
+    },
+    {
+        "name": "Tyler",
+        "score": 5,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 100.0,
+        "date_taken": "2026-09-27 16:01"
+    },
+    {
+        "name": "Jonah",
+        "score": 3,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 60.0,
+        "date_taken": "2026-09-27 16:01"
+    },
+    {
+        "name": "Tyler",
+        "score": 5,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 100.0,
+        "date_taken": "2026-10-05 17:47"
+    },
+    {
+        "name": "Jonah",
+        "score": 3,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 60.0,
+        "date_taken": "2026-10-05 17:47"
+    },
+    {
+        "name": "Tyler",
+        "score": 5,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 100.0,
+        "date_taken": "2026-10-06 15:21"
+    },
+    {
+        "name": "Jonah",
+        "score": 3,
+        "total_questions": 5,
+        "selected_difficulty": "all",
+        "wrong_catagories": {},
+        "wrong_difficulties": {},
+        "percentage": 60.0,
+        "date_taken": "2026-10-06 15:21"
     }
 ]

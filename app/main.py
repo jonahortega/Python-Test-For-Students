@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 import quiz
 from pydantic import BaseModel
 
@@ -10,7 +10,7 @@ def health():
 
 @app.get("/questions")
 def get_questions():
-    data = quiz.load_questions_json()
+    data = quiz.load_questions_for_client()
     return data
 
 class ResultCreate(BaseModel):
@@ -23,6 +23,11 @@ class ResultCreate(BaseModel):
     
 @app.post("/results")
 def create_result(payload: ResultCreate):
+    if payload.total_questions == 0:
+        raise HTTPException(
+            status_code=400,
+            detail="total_questions must be greater than 0",
+        )
     result = quiz.build_result(
         name = payload.name,
         score = payload.score,
@@ -38,4 +43,10 @@ def create_result(payload: ResultCreate):
 @app.get("/results")
 def get_results():
     data = quiz.load_results_json()
+    return data
+
+@app.get("/results/{name}")
+def get_result_by_name(name:str):
+    all_results = quiz.load_results_json()
+    data = quiz.filter_results_by_name(all_results,name)
     return data

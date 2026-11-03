@@ -1,17 +1,22 @@
-# Python Quiz Learning Project
+# Programming Quiz (Python for Beginners)
 
-CLI quiz app built to practice real world applications of Python as a professional software engineer.
+A Python Quiz built for begginers to test their knowledge of the Python programming Language. This was built to practice real world applications of professional software engineering and standards.
+
+
 
 ## Features
 - Multi-file CLI (main, menu, quiz, review)
 - JSON question bank and result history
-- Pytest tests for `build_result`
+- FastAPi layer for API endppints, 5 endpoints in total (GET /health, GET /questions, POST /results, GET /results, GET /results/{name})
+- Pytest tests for:
+    - test_quiz.py:  `build_result`, `build_result_score`
+    - test_api.py: `test_health`, `test_questions_hide_answers`, `test_create_result_success`, `test_create_result_zero_questions`, `test_get_result_by_name`
 
 ## Setup
 1. Clone the repo
 2. Create venv: `python3 -m venv .venv`
 3. Activate: `source .venv/bin/activate`
-4. Install: `pip install pytest`
+4. Install: `pip install -r requirements.txt`
 5. Run: `python main.py`
 6. Test: `pytest -v`
 
@@ -22,5 +27,7 @@ CLI quiz app built to practice real world applications of Python as a profession
 - `tests/` — pytest
 
 ## Roadmap
-- [ ] FastAPI layer
+- [X] FastAPI layer
 - [ ] SQLAlchemy + PostgreSQL
+- [ ] Dockerize the project
+- [ ] Add a frontend to the project
