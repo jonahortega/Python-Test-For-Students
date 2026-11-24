@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 import quiz
 from pydantic import BaseModel
+from app.database import save_result_db, load_results_db
 
 app = FastAPI()
 
@@ -37,16 +38,16 @@ def create_result(payload: ResultCreate):
         wrong_difficulties = payload.wrong_difficulties,
         
     )
-    quiz.save_result_json(result)
+    save_result_db(result)
     return result
 
 @app.get("/results")
 def get_results():
-    data = quiz.load_results_json()
+    data = load_results_db()
     return data
 
 @app.get("/results/{name}")
 def get_result_by_name(name:str):
-    all_results = quiz.load_results_json()
+    all_results = load_results_db()
     data = quiz.filter_results_by_name(all_results,name)
     return data
