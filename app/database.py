@@ -1,9 +1,16 @@
 from sqlalchemy import create_engine, Column, Integer, String, Float
 from sqlalchemy.orm import sessionmaker, declarative_base
+import os
+from dotenv import load_dotenv
 
 Base = declarative_base()
 
-engine = create_engine('postgresql+psycopg2://jonahortega@localhost:5432/jonahortega')
+load_dotenv()
+
+database_url = os.getenv("DATABASE_URL")
+if not database_url:
+    raise ValueError("DATABASE_URL is not set. Add it to your .env file.")
+engine = create_engine(database_url)
 
 class Result(Base):
     __tablename__ = 'results'

@@ -48,7 +48,7 @@ Docs when the server is running: http://127.0.0.1:8000/docs
 3. Activate: `source .venv/bin/activate`
 4. Install deps: `pip install -r requirements.txt`
 5. Start PostgreSQL locally and create a database
-6. Make sure the connection URL in `app/database.py` matches your local Postgres user/database (edit it if needed)
+6. Refer to the .env.example file to set the DATABASE_URL environment variable
 7. Start the API: `uvicorn app.main:app --reload`
 8. Open docs: http://127.0.0.1:8000/docs
 9. Optional CLI: `python main.py`
@@ -74,7 +74,7 @@ Note: API tests use the same database URL, so pytest can insert sample rows into
 
 ## v1 (planned)
 
-- [ ] Move database URL to an environment variable
+- [X] Move database URL to an environment variable
 - [ ] Docker Compose (app + Postgres)
 - [ ] Point CLI at the same DB (or call the API)
 - [ ] Isolate tests from the personal/dev database
@@ -86,4 +86,4 @@ Note: API tests use the same database URL, so pytest can insert sample rows into
 - `POST /results` rejects `total_questions == 0` with HTTP 400
 - `GET /questions` hides answers on purpose
 - API uses `quiz.build_result` so result shape stays consistent
-- Connection string is still hardcoded in v0; env + Docker are v1 work
+- Connection string is now int he environment variable; env + Docker are v1 work
